@@ -1,0 +1,68 @@
+/* http://www.w3schools.com/css/tryit.asp?filename=trycss_table_color */
+
+#search {
+    padding: 4px;
+    width: 300px;
+}
+
+.add-form table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.add-form th, td {
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #00aeef;
+    color: white;
+}
+
+.add-form {
+    padding: 10px 0;
+}
+
+.add-form a {
+    text-decoration: none;
+}
+.add-form a:hover {
+    text-decoration: underline;
+}
+
+.add-form td input {
+  width: 100%;
+  padding: 4px;
+}
+.add-form button {
+    padding: 2px 4px;
+    min-width: 30px;
+}
+
+.new-agenda{
+    padding: 10px 0;
+}
+
+.new-agenda a{
+    text-decoration: none;
+}
+.new-agenda a.hover {
+    ext-decoration: underline;
+}
+.new-agenda input {
+    width: 100%;
+    padding: 4px;
+}
+.new-agenda table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.new-agenda button {
+    padding: 2px 4px;
+    min-width: 30px;
+}
